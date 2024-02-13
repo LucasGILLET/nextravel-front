@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import { RouterProvider } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
+import router from "./rooter/root";
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
@@ -14,7 +15,7 @@ if ('serviceWorker' in navigator) {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
