@@ -6,7 +6,9 @@ export default function App() {
     <div className="App">
       <div id="detail">
         <Navigation />
-        <Outlet />
+        {/* <div className="ml-[6rem]"> */}
+          <Outlet />
+        {/* </div> */}
       </div>
     </div>
   );

@@ -17,6 +17,10 @@ code {
     monospace;
 }
 
-/* #detail {
-  margin: 5rem;
-} */
+#detail {
+  @apply bg-gray;
+  @apply w-full;
+  @apply h-full;
+  @apply min-w-[100vw];
+  @apply min-h-[100vh];
+}

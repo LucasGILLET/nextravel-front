@@ -21,7 +21,7 @@ export default function Login() {
                     </div>
                     <a 
                      className="bg-white text-black rounded-md w-fit py-3 px-8 m-auto text-3xl transition-all ease-in-out duration-200 shadow-lg hover:bg-dark hover:text-white xl:mb-20" 
-                    href="/"
+                    href="/destinations"
                     >
                         Submit
                     </a>
